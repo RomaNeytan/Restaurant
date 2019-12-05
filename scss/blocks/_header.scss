@@ -1,0 +1,59 @@
+.header{
+    background: #fff;
+    padding: 21px 0;
+    &__logo{
+
+    }
+    &-menu{
+        &__list{
+
+        }
+        &__item{
+            & + &{
+                margin-left: 25px;
+            }
+        }
+        &__link{
+            font-size: 14px;
+            color:#2c465a;
+            font-weight: 700;
+            text-transform: uppercase;
+            transition: color .2s linear;
+
+            &:hover{
+                text-decoration: none;
+            }
+        }
+    }
+    &__btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        button{
+            &:focus{
+                outline: none;
+            }
+        }
+        &--book{
+            height: 48px;
+            padding: 0 20px;
+            display: inline-block;
+            vertical-align: top;
+            background: #fea100;
+            color:#fff;
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            border: 0;
+            border-radius: 4px;
+
+            &:hover{
+                color:#fff;
+            }
+        }
+    }
+    &__order{
+        margin-right: 7px;
+    }
+}

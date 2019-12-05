@@ -1,0 +1,20 @@
+.hero{
+    background: #7d8587 url("../../images/hero/first-bg.jpg.png") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    &__title{
+        font-size: 56px;
+        color:#fff;
+        font-weight: 700;
+        @include Play();
+    }
+    &__suptitle{
+        font-size: 40px;
+        font-weight: 700;
+        color:#fff;
+        @include Play();
+        span{
+            color:$span-color;
+        }
+    }
+}

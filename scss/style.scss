@@ -18,5 +18,15 @@ ul{
     list-style: none;
 }
 
+img{
+    max-width: 100%;
+}
+
 // Blocks
 
+@import "blocks/header";
+@import "blocks/hero";
+@import "blocks/phone";
+@import "blocks/about";
+@import "blocks/special";
+@import "blocks/footer";
